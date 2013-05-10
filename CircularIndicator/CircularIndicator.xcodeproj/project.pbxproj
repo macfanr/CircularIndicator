@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4AF7A51739F0D200271A59 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4AF7A41739F0D200271A59 /* Cocoa.framework */; };
+		6B4AF7AF1739F0D200271A59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AF7AD1739F0D200271A59 /* InfoPlist.strings */; };
+		6B4AF7B11739F0D200271A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4AF7B01739F0D200271A59 /* main.m */; };
+		6B4AF7B51739F0D200271A59 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AF7B31739F0D200271A59 /* Credits.rtf */; };
+		6B4AF7B81739F0D200271A59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4AF7B71739F0D200271A59 /* AppDelegate.m */; };
+		6B4AF7BB1739F0D200271A59 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4AF7B91739F0D200271A59 /* MainMenu.xib */; };
+		6B4AF7C31739F0E900271A59 /* DNCircularIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4AF7C21739F0E900271A59 /* DNCircularIndicator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B4AF7A01739F0D200271A59 /* CircularIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4AF7A41739F0D200271A59 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6B4AF7A71739F0D200271A59 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6B4AF7A81739F0D200271A59 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6B4AF7A91739F0D200271A59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B4AF7AC1739F0D200271A59 /* CircularIndicator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircularIndicator-Info.plist"; sourceTree = "<group>"; };
+		6B4AF7AE1739F0D200271A59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B4AF7B01739F0D200271A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B4AF7B21739F0D200271A59 /* CircularIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularIndicator-Prefix.pch"; sourceTree = "<group>"; };
+		6B4AF7B41739F0D200271A59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6B4AF7B61739F0D200271A59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B4AF7B71739F0D200271A59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B4AF7BA1739F0D200271A59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B4AF7C11739F0E900271A59 /* DNCircularIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNCircularIndicator.h; sourceTree = "<group>"; };
+		6B4AF7C21739F0E900271A59 /* DNCircularIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNCircularIndicator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4AF79D1739F0D200271A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4AF7A51739F0D200271A59 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4AF7951739F0D200271A59 = {
+			isa = PBXGroup;
+			children = (
+				6B4AF7AA1739F0D200271A59 /* CircularIndicator */,
+				6B4AF7A31739F0D200271A59 /* Frameworks */,
+				6B4AF7A11739F0D200271A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4AF7A11739F0D200271A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4AF7A01739F0D200271A59 /* CircularIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4AF7A31739F0D200271A59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B4AF7A41739F0D200271A59 /* Cocoa.framework */,
+				6B4AF7A61739F0D200271A59 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B4AF7A61739F0D200271A59 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B4AF7A71739F0D200271A59 /* AppKit.framework */,
+				6B4AF7A81739F0D200271A59 /* CoreData.framework */,
+				6B4AF7A91739F0D200271A59 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6B4AF7AA1739F0D200271A59 /* CircularIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6B4AF7B61739F0D200271A59 /* AppDelegate.h */,
+				6B4AF7B71739F0D200271A59 /* AppDelegate.m */,
+				6B4AF7C11739F0E900271A59 /* DNCircularIndicator.h */,
+				6B4AF7C21739F0E900271A59 /* DNCircularIndicator.m */,
+				6B4AF7B91739F0D200271A59 /* MainMenu.xib */,
+				6B4AF7AB1739F0D200271A59 /* Supporting Files */,
+			);
+			path = CircularIndicator;
+			sourceTree = "<group>";
+		};
+		6B4AF7AB1739F0D200271A59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B4AF7AC1739F0D200271A59 /* CircularIndicator-Info.plist */,
+				6B4AF7AD1739F0D200271A59 /* InfoPlist.strings */,
+				6B4AF7B01739F0D200271A59 /* main.m */,
+				6B4AF7B21739F0D200271A59 /* CircularIndicator-Prefix.pch */,
+				6B4AF7B31739F0D200271A59 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4AF79F1739F0D200271A59 /* CircularIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4AF7BE1739F0D200271A59 /* Build configuration list for PBXNativeTarget "CircularIndicator" */;
+			buildPhases = (
+				6B4AF79C1739F0D200271A59 /* Sources */,
+				6B4AF79D1739F0D200271A59 /* Frameworks */,
+				6B4AF79E1739F0D200271A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularIndicator;
+			productName = CircularIndicator;
+			productReference = 6B4AF7A01739F0D200271A59 /* CircularIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4AF7971739F0D200271A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xu Jun";
+			};
+			buildConfigurationList = 6B4AF79A1739F0D200271A59 /* Build configuration list for PBXProject "CircularIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B4AF7951739F0D200271A59;
+			productRefGroup = 6B4AF7A11739F0D200271A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4AF79F1739F0D200271A59 /* CircularIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4AF79E1739F0D200271A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4AF7AF1739F0D200271A59 /* InfoPlist.strings in Resources */,
+				6B4AF7B51739F0D200271A59 /* Credits.rtf in Resources */,
+				6B4AF7BB1739F0D200271A59 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4AF79C1739F0D200271A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4AF7B11739F0D200271A59 /* main.m in Sources */,
+				6B4AF7B81739F0D200271A59 /* AppDelegate.m in Sources */,
+				6B4AF7C31739F0E900271A59 /* DNCircularIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B4AF7AD1739F0D200271A59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4AF7AE1739F0D200271A59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B4AF7B31739F0D200271A59 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4AF7B41739F0D200271A59 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6B4AF7B91739F0D200271A59 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4AF7BA1739F0D200271A59 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B4AF7BC1739F0D200271A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B4AF7BD1739F0D200271A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B4AF7BF1739F0D200271A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularIndicator/CircularIndicator-Prefix.pch";
+				INFOPLIST_FILE = "CircularIndicator/CircularIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B4AF7C01739F0D200271A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularIndicator/CircularIndicator-Prefix.pch";
+				INFOPLIST_FILE = "CircularIndicator/CircularIndicator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4AF79A1739F0D200271A59 /* Build configuration list for PBXProject "CircularIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4AF7BC1739F0D200271A59 /* Debug */,
+				6B4AF7BD1739F0D200271A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4AF7BE1739F0D200271A59 /* Build configuration list for PBXNativeTarget "CircularIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4AF7BF1739F0D200271A59 /* Debug */,
+				6B4AF7C01739F0D200271A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4AF7971739F0D200271A59 /* Project object */;
+}
